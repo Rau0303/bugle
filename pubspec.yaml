@@ -1,0 +1,17 @@
+name: bugle
+description:  A lightweight and elegant error reporting tool that sounds the alarm by sending crash reports and stack traces directly to Telegram.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Add regular dependencies here.
+dependencies:
+  http: ^1.6.0
+  dart_frog: ^1.2.6
+  
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
